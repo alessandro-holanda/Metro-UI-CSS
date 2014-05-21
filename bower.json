@@ -1,10 +1,12 @@
 {
-  "name": "Metro-UI-CSS",
-  "version": "2.0.19",
+  "name": "metro-ui",
+  "version": "2.0.23",
   "main": [
     "./css/metro-bootstrap.css",
     "./css/metro-bootstrap-responsive.css",
-    "./min/metro.min.js",
+    "./js/metro-core.js",
+    "./js/metro-touch-handler.js",
+    "./js/metro-dialog.js",
     "./fonts/iconFont.eot",
     "./fonts/iconFont.svg",
     "./fonts/iconFont.ttf",
@@ -12,6 +14,16 @@
   ],
   "dependencies": {
     "jquery": ">= 1.9.0"
-  }
+  },
+  "homepage": "https://github.com/alessandro-holanda/metro-ui",
+  "_release": "2.0.23",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.23",
+    "commit": "1c1a92194f137d9cbd36da24b933bd6f82a09f8f"
+  },
+  "_source": "git://github.com/alessandro-holanda/metro-ui.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/alessandro-holanda/metro-ui.git"
 }
 
