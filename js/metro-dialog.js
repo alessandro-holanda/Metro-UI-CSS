@@ -1,5 +1,5 @@
 (function($) {
-    if (METRO_DIALOG == undefined) {
+    if (typeof(METRO_DIALOG) == "undefined") {
         //var METRO_DIALOG = false;
     }
 
