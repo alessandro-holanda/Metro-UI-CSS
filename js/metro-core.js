@@ -28,7 +28,7 @@ $(function(){
 
 $(function(){
     $(window).on('resize', function(){
-        if (typeof(METRO_DIALOG) != "undefined") {
+        if (METRO_DIALOG) {
             var top = ($(window).height() - METRO_DIALOG.outerHeight()) / 2;
             var left = ($(window).width() - METRO_DIALOG.outerWidth()) / 2;
             METRO_DIALOG.css({
