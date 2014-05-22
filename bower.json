@@ -4,7 +4,8 @@
   "main": [
     "./css/metro-bootstrap.css",
     "./css/metro-bootstrap-responsive.css",
-    "./docs/css/iconFont.css",    
+    "./docs/css/iconFont.css", 
+    "./js/metro-global.js",   
     "./js/metro-core.js",
     "./js/metro-touch-handler.js",
     "./js/metro-dialog.js",
